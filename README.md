@@ -6,11 +6,19 @@ This is the small WebSocket-based chat. User can create his own room that will b
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run server`
 
 Runs the server side in the development mode.
 
-### `npm client`
+### `npm run start`
+
+Runs the server side in the production mode.
+
+### `npm run client-install`
+
+Installs client dependencies.
+
+### `npm run client`
 
 Runs the client side in the development mode.
 
