@@ -141,12 +141,12 @@ img {
   position: absolute;
   z-index: 20;
   background: #42717f;
-  top: 20px;
+  top: 35px;
   right: 20px;
   color: white;
   padding: 5px 15px 10px;
   text-align: center;
-  width: 320px;
+  width: 400px;
 }
 
 .selectable {
@@ -272,7 +272,7 @@ img {
 
 /* Adapting to different resolutions */
 
-@media (max-width: 1600px) {
+@media (max-width: 1650px) {
   #flying-link {
     position: relative;
     top: auto;
