@@ -1,6 +1,7 @@
 import openSocket from "socket.io-client";
 
-const socket = openSocket("http://localhost:5000");
+const port = process.env.PORT || 5000;
+const socket = openSocket("http://localhost:" + port);
 
 function wsEmit(action, data) {
   socket.emit(action, data);
