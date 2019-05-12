@@ -153,9 +153,9 @@ class Chat extends Component {
         <div className="chatroom-container">
           <div id="flying-link">
             <span>Ссылка на чат: </span>
-            <span className="selectable" onClick={this.selectLink}>
-              {linkToChat}
-            </span>
+            <div className="selectable">
+              <span onClick={this.selectLink}>{linkToChat}</span>
+            </div>
           </div>
           <div className="chatroom-messenger-container">
             <div className="messagebox">{messagesToOut}</div>

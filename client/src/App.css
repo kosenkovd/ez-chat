@@ -151,7 +151,10 @@ img {
 
 .selectable {
   border: 2px dashed #243e46;
+  line-height: 1.3em;
+  vertical-align: middle;
   padding: 5px;
+  display: inline-block;
 }
 
 .chatroom-container {
@@ -280,8 +283,8 @@ img {
 
   .chatroom-container {
     height: 100%;
-    min-height: 400px;
-    grid-template-rows: 40px 1fp;
+    min-height: 350px;
+    grid-template-rows: 50px 1fp;
     grid-template-areas:
       "link link"
       "messages users";
