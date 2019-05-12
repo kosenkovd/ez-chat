@@ -131,6 +131,7 @@ class Chat extends Component {
       }
       return (
         <Message
+          key={`message${i}`}
           text={elem.message}
           login={elem.login}
           timesent={elem.timesent}
@@ -139,9 +140,9 @@ class Chat extends Component {
       );
     });
 
-    const onlineUsers = this.state.onlineUsers.map(elem => {
+    const onlineUsers = this.state.onlineUsers.map((elem, i) => {
       return (
-        <li>
+        <li key={`user-${i}`}>
           <i className="fas fa-user" />
           {" " + elem}
         </li>
