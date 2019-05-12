@@ -203,7 +203,7 @@ img {
   position: relative;
   float: left;
   max-width: 80%;
-  min-width: 200px;
+  min-width: 320px;
 }
 
 .message::before {
